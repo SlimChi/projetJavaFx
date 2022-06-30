@@ -1,8 +1,7 @@
 module fr.cs.projet1 {
     requires javafx.controls;
     requires javafx.fxml;
+requires org.kordamp.ikonli.core;
+requires org.kordamp.ikonli.javafx;
 
-
-    opens fr.cs.projet1 to javafx.fxml;
-    exports fr.cs.projet1;
 }
