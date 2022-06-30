@@ -13,7 +13,7 @@
 <VBox alignment="CENTER_LEFT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="289.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
 
-      <Label text="Se connecter" textFill="#b91616de">
+      <Label text="Se connecter" textFill="#636363">
          <VBox.margin>
             <Insets bottom="20.0" left="80.0" />
          </VBox.margin>
@@ -23,7 +23,7 @@
       </Label>
       <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
          <children>
-            <TextField prefHeight="25.0" prefWidth="241.0" promptText="Nom de l'utilisateur" HBox.hgrow="ALWAYS">
+            <TextField prefHeight="25.0" prefWidth="241.0" promptText="Nom de l'utilisateur" stylesheets="@../../../../java/application/application.css" HBox.hgrow="ALWAYS">
                <HBox.margin>
                   <Insets bottom="10.0" left="20.0" right="30.0" />
                </HBox.margin>
@@ -49,10 +49,16 @@
             </Pane>
          </children>
       </HBox>
-      <HBox alignment="CENTER_RIGHT" prefHeight="63.0" prefWidth="289.0">
+      <HBox alignment="CENTER_RIGHT" prefWidth="289.0">
          <children>
-            <Button mnemonicParsing="false" text="Mot de passe oublié ?" />
-            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" style="-fx-background-color: FFFFFF;" text="Mot de passe oublié ?">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin></Button>
+            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxHeight="1.7976931348623157E308" mnemonicParsing="false" styleClass="pink-btn" stylesheets="@../../../../java/application/application.css" text="Button">
+               <HBox.margin>
+                  <Insets left="10.0" right="60.0" />
+               </HBox.margin></Button>
          </children>
       </HBox>
    </children>
