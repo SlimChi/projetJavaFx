@@ -3,5 +3,6 @@ module fr.cs.projet1 {
     requires javafx.fxml;
 requires org.kordamp.ikonli.core;
 requires org.kordamp.ikonli.javafx;
+    requires javafx.graphics;
 
 }

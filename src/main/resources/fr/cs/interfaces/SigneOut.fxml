@@ -13,7 +13,7 @@
 <VBox alignment="CENTER_LEFT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="289.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
     <children>
 
-        <Label text="Se connecter" textFill="#b91616de">
+        <Label prefHeight="31.0" prefWidth="119.0" text="Inscription" textFill="#b91616de">
             <VBox.margin>
                 <Insets bottom="20.0" left="80.0" />
             </VBox.margin>
@@ -36,7 +36,7 @@
                 </TextField>
                 <Pane prefHeight="35.0" prefWidth="60.0">
                     <children>
-                        <FontIcon iconLiteral="bi-person-circle" iconSize="21" layoutX="-16.0" layoutY="26.0" text="" />
+                        <FontIcon iconColor="#2ea443" iconLiteral="bi-person-circle" iconSize="21" layoutX="-16.0" layoutY="26.0" text="" />
                     </children>
                 </Pane>
             </children>
@@ -56,7 +56,7 @@
             </TextField>
             <Pane prefHeight="35.0" prefWidth="60.0">
                <children>
-                  <FontIcon iconLiteral="bi-envelope" iconSize="18" layoutX="-15.0" layoutY="23.0" />
+                  <FontIcon iconColor="#0922ff" iconLiteral="bi-envelope" iconSize="18" layoutX="-15.0" layoutY="23.0" />
                </children>
             </Pane>
          </children>
@@ -73,7 +73,7 @@
                 </TextField>
                 <Pane prefHeight="35.0" prefWidth="60.0">
                     <children>
-                        <FontIcon iconLiteral="bi-lock" iconSize="22" layoutX="-16.0" layoutY="24.0" />
+                        <FontIcon iconColor="#f81212" iconLiteral="bi-lock" iconSize="22" layoutX="-16.0" layoutY="24.0" />
                     </children>
                 </Pane>
             </children>
