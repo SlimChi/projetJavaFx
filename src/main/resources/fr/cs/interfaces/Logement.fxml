@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane prefHeight="418.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.cs.interfaces.Logement">
+   <children>
+      <Label layoutX="31.0" layoutY="27.0" prefHeight="31.0" prefWidth="116.0" text="Recherche">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <TextField layoutX="147.0" layoutY="30.0" prefHeight="25.0" prefWidth="207.0" promptText="identifiant" />
+      <FontIcon iconLiteral="bi-search" iconSize="18" layoutX="366.0" layoutY="50.0" />
+      <TextField layoutX="31.0" layoutY="80.0" prefHeight="25.0" prefWidth="276.0" promptText="Adresse" />
+      <TextField layoutX="327.0" layoutY="80.0" prefHeight="25.0" prefWidth="134.0" promptText="Superfecie" />
+      <JFXComboBox layoutX="30.0" layoutY="119.0" prefHeight="25.0" prefWidth="134.0" promptText="Région" unFocusColor="#76a0ee" />
+      <JFXComboBox layoutX="179.0" layoutY="119.0" prefHeight="25.0" prefWidth="134.0" promptText="Province" unFocusColor="#76a0ee" />
+      <JFXComboBox layoutX="327.0" layoutY="119.0" prefHeight="25.0" prefWidth="134.0" promptText="Commune" unFocusColor="#76a0ee" AnchorPane.leftAnchor="327.0" />
+      <JFXComboBox layoutX="28.0" layoutY="174.0" prefHeight="25.0" prefWidth="134.0" promptText="Type" unFocusColor="#76a0ee" />
+      <JFXComboBox layoutX="176.0" layoutY="174.0" prefHeight="25.0" prefWidth="134.0" promptText="loyer" unFocusColor="#76a0ee" />
+      <Label layoutX="366.0" layoutY="182.0" text="Aucune selection" textFill="#033be4">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <FontIcon iconLiteral="bi-upload" iconSize="19" layoutX="338.0" layoutY="200.0" />
+      <TableView layoutX="27.0" layoutY="222.0" prefHeight="159.0" prefWidth="623.0" stylesheets="@../../../../java/application/application.css" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="27.0">
+        <columns>
+          <TableColumn prefWidth="87.0" text="ID" />
+          <TableColumn prefWidth="102.0" text="Adresse" />
+            <TableColumn prefWidth="107.0" text="Superfecie" />
+            <TableColumn prefWidth="109.0" text="Loyer" />
+            <TableColumn prefWidth="111.0" text="Type" />
+            <TableColumn prefWidth="106.0" text="Région" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="203.0" fitWidth="180.0" layoutX="473.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="27.0" />
+      <JFXButton layoutX="208.0" layoutY="389.0" prefHeight="25.0" prefWidth="70.0" styleClass="buttons" stylesheets="@../../../../java/application/application.css" text="Ajouter" />
+      <JFXButton layoutX="306.0" layoutY="389.0" prefHeight="25.0" prefWidth="70.0" styleClass="buttons" stylesheets="@../../../../java/application/application.css" text="Modifier" />
+      <JFXButton layoutX="404.0" layoutY="389.0" prefHeight="25.0" prefWidth="83.0" styleClass="buttons" stylesheets="@../../../../java/application/application.css" text="Supprimer" />
+   </children>
+</AnchorPane>

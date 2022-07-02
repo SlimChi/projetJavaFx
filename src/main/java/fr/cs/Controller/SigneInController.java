@@ -1,4 +1,4 @@
-package controller;
+package fr.cs.Controller;
 
 import javafx.application.Application;
 import javafx.stage.Stage;

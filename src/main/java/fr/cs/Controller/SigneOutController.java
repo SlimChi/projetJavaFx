@@ -1,4 +1,4 @@
-package controller;
+package fr.cs.Controller;
 
 public class SigneOutController {
 }
